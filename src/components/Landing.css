@@ -1,0 +1,85 @@
+.landing-wrapper {
+    padding: 2rem 0;
+}
+
+.landing-img {
+    height: 30rem;
+    width: 30rem;
+}
+
+.form {
+    background: var(--grey);
+    height: 30rem;
+    width: 25rem;
+    position: relative;
+}
+
+.w-16 {
+    width: 16rem;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.input-height {
+    height: 19rem;
+}
+
+.input {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    padding: 0.4rem;
+    margin: 0.6rem 0;
+    background: none;
+    border-bottom: 0.1rem solid var(--text);
+    color: var(--text);
+}
+
+input::placeholder {
+    color: var(--text);
+    font-weight: 500;
+}
+
+.btn {
+    width: 6rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+    background: var(--black);
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0 1rem var(--black-shadow);
+}
+
+.form-label {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.pd-0-2 {
+    padding: 2rem 0;
+}
+
+.form-link {
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.msg {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text);
+}

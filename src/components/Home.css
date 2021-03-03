@@ -1,0 +1,56 @@
+.home-wrapper {
+    padding: 2rem 0;
+}
+
+.bk-grey {
+    background: var(--grey) !important;
+}
+
+.stat {
+    background: var(--black);
+    padding: 0.6rem;
+    
+}
+.small-stat {
+    width: 25%;
+    margin: 0 0.2rem;
+}
+
+.pd-1 {
+    padding: 1rem;
+}
+
+.pd-2-1 {
+    padding: 2rem 1rem;
+}
+
+.checkbox {
+    appearance: none;
+    position: relative;
+    width: 1.4rem;
+    height: 1.4rem;
+    background: var(--black);
+}
+
+.checkbox:checked::after {
+    content: " ";
+    position: absolute;
+    width: 0.7rem;
+    height: 0.7rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background: var(--text);
+}
+
+.stat-label {
+    font-size: 1rem;
+}
+
+.stat-data {
+    font-size: 2rem;
+}
+
+.checkbox-container {
+    width: 18%;
+}
